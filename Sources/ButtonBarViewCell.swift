@@ -41,5 +41,9 @@ open class ButtonBarViewCell: UICollectionViewCell {
         if label.superview != nil {
             contentView.addSubview(label)
         }
+        
+        if imageView.superview != nil {
+            contentView.addSubview(imageView)
+        }
     }
 }
